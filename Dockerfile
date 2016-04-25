@@ -1,5 +1,5 @@
 # docker build -t ogollemon/domoticz .
-# docker run --device /dev/ttyACM0 -v /etc/localtime:/etc/localtime:ro -p 80:8080 bblanchon/domoticz
+# docker run --device /dev/ttyACM0 -v /etc/localtime:/etc/localtime:ro -p 80:8080 ogollemon/domoticz
 
 FROM ubuntu:16.04
 MAINTAINER ogollemon
