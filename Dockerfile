@@ -4,7 +4,7 @@
 FROM ubuntu:16.04
 MAINTAINER ogollemon
 
-# install dependencies
+## install dependencies
 RUN apt-get update && \
 	apt-get install -y \
 		build-essential \
