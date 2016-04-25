@@ -1,8 +1,8 @@
-# docker build -t bblanchon/domoticz .
+# docker build -t ogollemon/domoticz .
 # docker run --device /dev/ttyACM0 -v /etc/localtime:/etc/localtime:ro -p 80:8080 bblanchon/domoticz
 
-FROM ubuntu:14.04
-MAINTAINER bblanchon
+FROM ubuntu:16.04
+MAINTAINER ogollemon
 
 # install dependencies
 RUN apt-get update && \
