@@ -1,7 +1,7 @@
 Domoticz on Docker
 ==================
 
-This image is based on Ubuntu 14.04.
+This image is based on Ubuntu 16.04.
 
 Domoticz is compile from source with OpenZWave and SSL support.
 
